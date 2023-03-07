@@ -1,0 +1,81 @@
+* {
+    font-family: sans-serif;
+    background-color: navy;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+h2 {
+    text-align: center;
+    color: azure;
+}
+h3 {
+    text-align: center;
+    color: azure;
+}
+
+.cabecera {
+    background-color: cyan;
+    color: navy;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cabecera h1,h2{
+    background-color: cyan; 
+    color: navy;
+}
+.bienvenidos{
+    background-color: navy;
+    color: cyan;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bienvenidos h2{
+    background-color: navy;
+    color: cyan;    
+}
+
+.somos {
+    background-color: cyan;
+    color: navy;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.somos p {
+    background-color: cyan;
+    color: navy;    
+}
+
+.productos{
+    background-color: navy;
+    color: cyan;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.productos h2{
+    background-color: navy;
+    color: cyan;    
+}
+
+.productos p {
+    background-color: navy;
+    color: cyan;   
+}
+
+.pie{
+    background-color: white;
+    color: navy;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pie h3{
+    background-color: white;
+    color: navy;
+}
+
+.pie p {
+    background-color: white;
+    color: navy;
+    text-align: center;
+}
