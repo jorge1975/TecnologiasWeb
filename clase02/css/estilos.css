@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/Nunito_Sans/NunitoSans-Black.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Open Sans1";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+* {	
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans1', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Cabecera de la web */
+header {
+	width: 100%;
+	background-color: orange;
+}
+
+.imagen-logo {
+	display:block;
+	margin:auto;
+	width: 150px;
+}
+
+#portada {
+  margin: 2rem 2rem;
+}
+
+.imagen-portada {
+	display:block;  
+	margin:auto;
+	width: 90%;
+}
+
+h1 {
+	color: rgb(108,115,61);
+	font-family: 'Nunito Sans', sans-serif;	
+	font-size: 2rem;
+  margin-bottom: inherit;
+}
+
+h2 {
+	/* */
+	font-family: 'Open Sans';
+	color: rgb(140,140,136);
+  font-size: 1.75rem;
+  margin-bottom: inherit;
+}
+
+h3 {
+	/* */
+	font-family: 'Open Sans';
+	color: rgb(140,140,136);
+  font-size: 1.5rem;
+  margin-bottom: inherit;
+}
+
+h4 {
+	/* */
+	font-family: 'Open Sans';
+	color: rgb(140,140,136);
+  font-size: 1.25rem;
+  margin-bottom: inherit;
+}
+
+p {	
+	color: rgb(157,166,93);
+	font-size: 1.25rem;
+  margin-bottom: inherit;
+}
+
+#seccion-sanky {  
+  color: #fff;  
+  margin: 2rem 2rem; 
+}
+
+#seccion-sanky img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;  
+}
+
+.parrafo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: inherit;
+}
+
+#seccion-caracteristicas {  
+  color: brown; 
+  margin: 2rem 2rem; 
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.15rem;
+  margin-bottom: inherit;
+}
+
+#galeria{
+  margin: 2rem 2rem;
+  margin: 2rem 2rem;
+}
+.columna {
+  float: left;
+  width: 33.3%;
+  padding-right: 5px;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;  
+}
+
+#galeria img {
+  /* Para que sea responsiva */
+  width: 100%;  
+  border-radius: 50%;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(100, 200, 255);
+  cursor: pointer;
+}
+
+.pie{
+  background-color: #fff2f2;
+  color: navy;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pie h3,h4{
+  background-color: #fff2f2;
+  color: navy;
+  margin: 10px 10px;
+}
+
+.pie p {
+  background-color: #fff2f2;
+  color: navy;
+  text-align: center;
+}
+
